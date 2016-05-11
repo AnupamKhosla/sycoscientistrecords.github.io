@@ -1,0 +1,243 @@
+
+.navbar {
+	min-height: 60px;
+	border-color: #333;
+	background-color: #d6d5d5;
+	margin-bottom: 0;
+}
+
+.navbar .navbar-header .navbar-brand {
+	height: 60px;
+	padding: 20px 15px;
+	color: #333 ;
+	font-family: Raleway;
+	font-weight: bold;
+	font-style: italic;
+}
+.navbar .navbar-header .navbar-toggle {
+	margin-top: 14px;
+	border-color: #d5d5d5 ;
+}
+.navbar .navbar-header .navbar-toggle > .icon-bar {
+	background-color: #333 ;
+}
+.navbar ul.navbar-nav {
+	margin-bottom: 0 ;
+}
+.navbar ul.nav > li > a {
+	height: 60px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 15px;
+	color: #333 ;
+	text-align: center;
+}
+.navbar ul.nav > li > a:hover {
+	color: #333 ;
+	background-color: #e7e7e7 ;
+}
+.navbar ul.nav > li.active > a, .navbar ul.nav > li.active:hover > a {
+	background-color: #333 ;
+	color: #d6d5d5 ;
+}
+
+#home {
+	 background-color: #333;
+	 z-index: 6;
+}
+.carousel {
+	
+	width: 100%;
+	height: 100vh;
+	min-height: 420px;	 
+}
+.mobile-carousel {
+	padding-top: 100px;
+	height: 100%;
+	padding-bottom: 40px;
+
+}
+.carousel-inner {
+	height: 100%;
+	padding-top: 0px;
+}
+.carousel-inner .item {
+	height: 100%;
+	-webkit-transition-timing-function: cubic-bezier(.71,-0.06,.36,1.35);
+	transition-timing-function: cubic-bezier(.71,-0.06,.36,1.35);
+	width: 100%;
+	height: 568px;
+	height: 100%;
+}
+
+
+.carousel-inner .first {
+	width: 100%;	
+	margin: auto;
+	background: url(../images/studio.jpg) no-repeat fixed;
+	background-position: center 100px;
+	background-size: 100% calc(100% - 140px);
+	background-clip: content-box;
+}
+.carousel-inner .second {
+	width: 100%;	
+	margin: auto;
+	background: url(../images/mike.jpg) no-repeat fixed;
+	background-position: center 100px;
+	background-size: 100% calc(100% - 140px);
+	background-clip: content-box;
+}
+.carousel-inner .third {
+	width: 100%;	
+	margin: auto;
+	background: url(../images/discScratch.jpg) no-repeat fixed;
+	background-position: center 100px;
+	background-size: 100% calc(100% - 140px);
+	background-clip: content-box;
+}
+.carousel-inner .fourth {
+	width: 100%;	
+	margin: auto;
+	background: url(../images/ThugLife.jpg) no-repeat fixed;
+	background-position: center 100px;
+	background-size: 100% calc(100% - 140px);
+	background-clip: content-box;
+}
+.carousel-control span {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+}
+.carousel-control span img {
+	position: absolute;
+	top: -36px;
+	left: -9px;
+
+}
+.carousel-indicators {
+	bottom: 0px;
+	margin-bottom: 0;
+}
+.carousel-indicators li {
+	background-color: #777;
+	border: 0;
+}
+.carousel-indicators li.active {
+	background-color: #dcdbdb;
+	margin: 1px;
+	width: 10px;
+	height: 10px;
+}
+.carousel-caption {
+	font-family: raleway;
+}
+#artists {	
+	min-height: 768px;
+	min-height: 100vh;
+	padding: 100px 0;
+	background-color: #d6d5d5;
+}
+#artists h3 {
+	margin: 0;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+#artists hr {
+	padding: 0 15px;
+	color: #333;
+	border-color: #333;
+}
+.no-margin {
+	margin: 0 !important;
+}
+.latest-songs, .upcoming-shows {
+	margin-top: 15px;
+	list-style-type: disc;
+	list-style-position: outside;
+	padding-left: 15px;
+	margin-bottom: 30px;
+}
+.latest-songs li, .upcoming-shows li {
+	line-height: 24px;
+	list-style-type: square;
+}
+.read-more {
+	color: white;
+	background-color: #333;
+	border-radius: 1px;
+	border-color: #a6a6a4;
+	margin-bottom: 15px;
+}
+.read-more:hover {
+	border-color: #333;
+}
+
+
+
+
+#songs {
+	height: 100vh;
+	min-height: 768px;
+	background-color: #333;
+	padding: 100px 0;
+	color: #d6d5d5;
+}
+#songs h3 {
+	margin-bottom: 40px;
+	color: white;
+}
+#songs .heading {
+	line-height: 34px;
+}
+#songs .playlist {	
+	background-color: black;
+}
+#songs .playlist .heading {
+	border-bottom: 1px solid #333;
+	padding: 10px 15px;
+}
+#songs .navbar-toggle {
+	display: block;
+	float: left;
+	color: white;
+	margin: 0;
+	padding-left: 0;	
+}
+#songs .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+#songs .playlist h6{
+	margin: 0;
+	padding: 10px;
+}
+#songs .playlist .playlist-videos {
+	padding: 20px 25px;
+	border-top: 0px solid #555;
+	overflow-y: scroll;
+	height: 386px;
+}
+#songs .playlist .playlist-videos iframe {
+	width: 100%;
+	height: 90px;
+	margin-bottom: 20px;
+}
+#songs .video-detail {
+	margin-top: 40px;
+	color: #d6d5d5;
+}
+#songs .main-video {
+	outline: 1px solid black;
+}
+
+
+
+
+@media (max-height : 420px) {
+	.item.active {
+		background-size: 100% 270px;
+	}
+}
+
+
+/* how to slide background images in the carousel   */
